@@ -41,9 +41,11 @@ Written for non technical users.
 
 1. Install **Tampermonkey** (a Chrome extension).
 2. Go to `chrome://extensions/`, open Tampermonkey's details, and enable **"Allow user scripts"**. Why: without it, on recent Chrome (MV3) the script is injected into an isolated world and has no effect.
-3. Add the script to Tampermonkey, preferably through the repo's raw link:
-   [install `instagram-saved-fix.user.js`](https://raw.githubusercontent.com/gabrielvf1/instagram-saved-collections-fix/main/instagram-saved-fix.user.js)
+3. Add the script to Tampermonkey. Two ways:
+   - **One click (easiest):** open the raw link and Tampermonkey shows its install screen. [install `instagram-saved-fix.user.js`](https://raw.githubusercontent.com/gabrielvf1/instagram-saved-collections-fix/main/instagram-saved-fix.user.js)
+   - **Manual:** click the Tampermonkey icon, choose **"Create a new script..."**, delete the template, paste the whole file, then **File › Save** (Ctrl+S).
 4. Open Instagram, go to the saved page, and let it index once (it takes a few minutes; it stays cached for 7 days, with incremental top ups afterward).
+5. **How to tell it is working:** a small badge appears at the bottom left of the page. While it sweeps it shows `indexing… N saved` (orange); once done it shows `N saved in cache` (blue). Click the badge any time to reindex from scratch.
 
 ### Caveats
 
@@ -98,9 +100,11 @@ Pensada pra quem não é técnico.
 
 1. Instalar o **Tampermonkey** (extensão do Chrome).
 2. Ir em `chrome://extensions/`, abrir os detalhes do Tampermonkey e ativar **"Permitir scripts do utilizador" / "Allow user scripts"**. Por quê: sem isso, em Chrome novo (MV3) o script injeta num mundo isolado e não faz efeito.
-3. Adicionar o script no Tampermonkey, de preferência pelo link raw do repo:
-   [instalar `instagram-saved-fix.user.js`](https://raw.githubusercontent.com/gabrielvf1/instagram-saved-collections-fix/main/instagram-saved-fix.user.js)
+3. Adicionar o script no Tampermonkey. Dois jeitos:
+   - **Um clique (mais fácil):** abrir o link raw e o Tampermonkey mostra a tela de instalação. [instalar `instagram-saved-fix.user.js`](https://raw.githubusercontent.com/gabrielvf1/instagram-saved-collections-fix/main/instagram-saved-fix.user.js)
+   - **Manual:** clicar no ícone do Tampermonkey, escolher **"Criar um novo script..."**, apagar o modelo, colar o arquivo inteiro e **Ficheiro › Guardar** (Ctrl+S).
 4. Abrir o Instagram, ir na página de salvos e deixar indexar uma vez (leva alguns minutos; fica cacheado por 7 dias, com atualização incremental depois).
+5. **Como saber que funcionou:** um badge pequeno aparece no canto inferior esquerdo da página. Durante a varredura mostra `indexando… N salvos` (laranja); ao terminar mostra `N salvos em cache` (azul). Clicar no badge a qualquer momento reindexa do zero.
 
 ### Ressalvas
 
